@@ -23,7 +23,6 @@ end
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 def using_delete(array, i = "Steven")
   instructors.delete(i)
-  instructors
 end
 
 def using_delete_at(famous_robots, integer)
