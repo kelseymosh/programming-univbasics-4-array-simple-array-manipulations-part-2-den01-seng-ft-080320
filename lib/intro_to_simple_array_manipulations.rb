@@ -22,7 +22,7 @@ end
 
 def using_delete(instructors, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = instructors.delete(Steven)
+  instructors.delete(Steven)
 end
 
 def using_delete_at(famous_robots, integer)
