@@ -21,6 +21,7 @@ def using_flatten(instruments)
 end
 
 def using_delete(array, string)
+  string = "Steven"
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   instructors.delete("Steven")
   puts instructors
