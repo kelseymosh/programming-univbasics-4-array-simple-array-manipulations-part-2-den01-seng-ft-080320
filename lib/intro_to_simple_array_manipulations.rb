@@ -22,7 +22,7 @@ end
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 def using_delete(array, x="Steven")
-  instructors.delete x
+  instructors.delete(x)
   instructors
 end
 
